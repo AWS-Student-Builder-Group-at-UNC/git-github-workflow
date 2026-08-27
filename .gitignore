@@ -1,0 +1,27 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Entornos y secretos
+.env
+.env.local
+*.pem
+*.key
+
+# Terraform (por si algún módulo lo usa)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Python (por si hay scripts de apoyo)
+__pycache__/
+*.pyc
+venv/
+
+# Node (por si hay ejemplos JS)
+node_modules/
