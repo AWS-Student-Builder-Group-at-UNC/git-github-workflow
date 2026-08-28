@@ -6,7 +6,7 @@ Al terminar esta lección vas a poder:
 - Explicar qué problema real resuelve el control de versiones.
 - Distinguir con claridad qué es **Git** y qué es **GitHub** (no son lo mismo).
 - Entender el concepto de **commit** como una "foto" del proyecto en un momento dado.
-- Navegar el historial de un repositorio real en GitHub sin escribir un solo comando.
+- Navegar el historial de un repositorio real en GitHub.
 
 ## ✅ Prerrequisitos
 
@@ -18,7 +18,7 @@ Seguro viviste esto alguna vez: escribís un documento, lo modificás, no estás
 
 ![Caos de archivos sin control de versiones](../diagramas/01-caos-sin-git.svg)
 
-Nadie sabe cuál es la versión "buena", qué cambió entre una y otra, ni cómo volver atrás sin perder trabajo. Esto no es solo un problema de estudiantes editando una tesis — es exactamente el mismo problema que tiene un equipo de 50 personas escribiendo código para un sistema en producción. Si no lo resolvés con una herramienta pensada para esto, lo vas a "resolver" a mano, mal, y tarde o temprano vas a perder algo importante.
+Nadie sabe cuál es la versión "buena", qué cambió entre una y otra, ni cómo volver atrás sin perder trabajo. Esto no es solo un problema de estudiantes haciendo un tp, sino que es exactamente el mismo problema que tiene un equipo de 50 personas escribiendo código para un sistema en producción. Si no lo resolvés con una herramienta pensada para esto, lo vas a "resolver" a mano, mal, y tarde o temprano vas a perder algo importante.
 
 **Git existe para eliminar este problema de raíz.**
 
@@ -36,28 +36,28 @@ Git es, hoy, la herramienta de control de versiones más usada del mundo — no 
 
 ### El concepto clave: el commit
 
-A diferencia de simplemente "guardar" un archivo (`Ctrl+S`), Git no guarda un archivo suelto — guarda una **foto completa de todo tu proyecto** en ese instante. A esa foto se la llama **commit**.
+A diferencia de simplemente "guardar" un archivo (`Ctrl+S`), Git no guarda un archivo suelto. Guarda una **foto completa de todo tu proyecto** en ese instante. A esa foto se la llama **commit**.
 
 ![Línea de tiempo de commits](../diagramas/01-linea-de-tiempo-commits.svg)
 
-Cada commit queda guardado para siempre (salvo que decidas explícitamente borrarlo). Esto significa que **nunca vas a perder trabajo por error** — siempre podés volver a cualquier punto anterior del historial. De esto hablamos con más profundidad en la Lección 08, pero quedate con la idea: *Git es una máquina del tiempo para tu proyecto.*
+Cada commit queda guardado para siempre (salvo que decidas explícitamente borrarlo). Esto significa que **nunca vas a perder trabajo por error**. Siempre podés volver a cualquier punto anterior del historial. De esto hablamos con más profundidad en la Lección 08, pero quedate con la idea: *Git es una máquina del tiempo para tu proyecto.*
 
 ### Git no es GitHub (y esto confunde a casi todo el mundo al principio)
 
-Esta es, probablemente, la confusión más común de cualquier persona que arranca con esto — así que vamos a dejarla clara desde el día 1:
+Esta es, probablemente, la confusión más común de cualquier persona que arranca con esto, así que vamos a dejarla clara desde el día 1:
 
 ![Git vs GitHub](../diagramas/01-git-vs-github.svg)
 
 - **Git** es un programa que corre en tu computadora. Guarda el historial de commits localmente. Podés usar Git sin internet, sin cuenta, sin GitHub.
 - **GitHub** es una plataforma web (una empresa, de hecho, propiedad de Microsoft) que aloja repositorios de Git en la nube, y agrega funcionalidades de colaboración: Pull Requests, Issues, revisión de código, Actions (CI/CD), etc.
 
-Existen alternativas a GitHub (GitLab, Bitbucket) que también usan Git por debajo — porque **Git es el estándar**, y estas plataformas son distintas formas de alojarlo y colaborar sobre él.
+Existen alternativas a GitHub (GitLab, Bitbucket) que también usan Git por debajo. Porque **Git es el estándar**, y estas plataformas son distintas formas de alojarlo y colaborar sobre él.
 
 > 💡 Analogía simple: Git es como el motor de un auto. GitHub es el auto completo, con volante, asientos y GPS, construido *alrededor* de ese motor.
 
 ### ¿Por qué arrancamos sin terminal?
 
-En las próximas dos lecciones (02 y 03) vas a crear tu primer repositorio, hacer tu primer commit y hasta manejar ramas — **todo desde la interfaz web de GitHub**, sin escribir un solo comando. La terminal la vamos a sumar recién en la Lección 04, cuando ya tengas los conceptos claros. Así separamos dos problemas distintos: primero entender *qué* está pasando, después aprender *cómo* escribirlo por comandos.
+En las próximas dos lecciones (02 y 03) vas a crear tu primer repositorio, hacer tu primer commit y hasta manejar ramas. **Todo desde la interfaz web de GitHub**, sin escribir un solo comando. La terminal la vamos a sumar recién en la Lección 04, cuando ya tengas los conceptos claros. Así separamos dos problemas distintos: primero entender *qué* está pasando, después aprender *cómo* escribirlo por comandos.
 
 ## 🧪 Práctica
 

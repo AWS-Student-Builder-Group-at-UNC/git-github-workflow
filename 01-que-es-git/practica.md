@@ -18,6 +18,6 @@ No vas a escribir código ni instalar nada todavía. El objetivo es que veas con
 
 ## ¿Qué estás practicando en realidad?
 
-Estás entrenando el ojo para leer la información que Git registra automáticamente: quién cambió qué, cuándo, y por qué (si el mensaje de commit es bueno — de esto hablamos en la Lección 11). Esta misma vista es la que vas a usar todos los días una vez que trabajes en un equipo real.
+Estás entrenando el ojo para leer la información que Git registra automáticamente: quién cambió qué, cuándo, y por qué (si el mensaje de commit es bueno; de esto hablamos en la Lección 11). Esta misma vista es la que vas a usar todos los días una vez que trabajes en un equipo real.
 
-Cuando termines, mirá [`solucion.md`](./solucion.md) — ahí no hay una "respuesta correcta" única, pero sí te muestro qué deberías haber notado.
+Cuando termines, mirá [`solucion.md`](./solucion.md). ahí no hay una "respuesta correcta" única, pero sí te muestro qué deberías haber notado.

@@ -10,18 +10,28 @@ En un repositorio grande y activo como VS Code, vas a encontrar **decenas de mil
 
 Si elegiste un commit al azar, probablemente encontraste dos tipos de mensajes:
 
-- Mensajes **claros**, tipo `"Fix crash when closing editor with unsaved changes"` — se entiende exactamente qué se solucionó sin mirar el código.
-- Mensajes **poco claros**, tipo `"fix"` o `"updates"` — no dicen nada útil.
+- Mensajes **claros**, tipo `"Fix crash when closing editor with unsaved changes"` y se entiende exactamente qué se solucionó sin mirar el código.
+- Mensajes **poco claros**, tipo `"fix"` o `"updates"` que no dicen nada útil.
+
+![Ejemplo de mensaje de commit claro en el historial](../diagramas/01-commits.png)
+
+Mirá el ejemplo marcado en la captura: *"Fix Escape handling in modal editors"*. Con solo leer ese título, sin abrir el código, ya sabés exactamente qué problema se solucionó. Ese es el estándar al que apuntamos.
 
 Esto no es casualidad: es la diferencia entre un buen hábito de commits y uno malo, algo que vamos a trabajar explícitamente en la **Lección 11**. Ya desde ahora, empezá a notar qué mensajes te resultan útiles cuando los leés como alguien externo al proyecto.
 
 ## 3. El diff (líneas verdes y rojas)
 
-Lo importante acá no es que entiendas el código en sí, sino que confirmes esta idea: **Git no te obliga a adivinar qué cambió** — te lo muestra explícitamente, línea por línea, con colores. Esa es la base de cómo funciona la revisión de código en un equipo (lo vas a ver en detalle en la Lección 07, Pull Requests).
+![Diff de un commit mostrando líneas agregadas y eliminadas](../diagramas/01-diff-commit.png)
+
+Lo importante acá no es que entiendas el código en sí, sino que confirmes esta idea: **Git no te obliga a adivinar qué cambió**, te lo muestra explícitamente, línea por línea, con colores. Esa es la base de cómo funciona la revisión de código en un equipo (lo vas a ver en detalle en la Lección 07, Pull Requests).
 
 ## 4. Ramas activas
 
-Un proyecto grande como VS Code tiene múltiples ramas activas al mismo tiempo — gente trabajando en distintas funcionalidades en paralelo, sin pisarse entre sí. Esto es exactamente el problema que resuelven las ramas, y es el tema completo de las **Lecciones 03 y 07**.
+Un proyecto grande como VS Code tiene múltiples ramas activas al mismo tiempo y mucha gente trabajando en distintas funcionalidades en paralelo, sin pisarse entre sí. Esto es exactamente el problema que resuelven las ramas, y es el tema completo de las **Lecciones 03 y 07**.
+
+![Ramas y cantidad de commits en un repo real](../diagramas/01-branch.png)
+
+Fijate en la captura: al momento de sacarla, el repositorio de VS Code tenía **4.931 ramas activas** y más de **164.000 commits** acumulados. Esa es la escala real de un proyecto de este tamaño — y Git lo maneja sin despeinarse.
 
 ---
 
