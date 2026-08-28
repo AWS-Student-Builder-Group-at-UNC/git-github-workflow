@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="340" fill="#0d1117"/>
+
+  <text x="400" y="40" text-anchor="middle" fill="#f0f6fc" font-size="24" font-weight="700">
+    Git ≠ GitHub
+  </text>
+  <text x="400" y="64" text-anchor="middle" fill="#8b949e" font-size="14">
+    Uno es la herramienta. El otro es donde la alojás y colaborás.
+  </text>
+
+  <!-- Git box (local) -->
+  <g>
+    <rect x="60" y="100" width="290" height="180" rx="14" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
+    <text x="205" y="140" text-anchor="middle" font-size="40">💻</text>
+    <text x="205" y="175" text-anchor="middle" fill="#f0883e" font-size="19" font-weight="700">Git</text>
+    <text x="205" y="200" text-anchor="middle" fill="#c9d1d9" font-size="13">Programa instalado</text>
+    <text x="205" y="220" text-anchor="middle" fill="#c9d1d9" font-size="13">en TU computadora</text>
+    <text x="205" y="248" text-anchor="middle" fill="#8b949e" font-size="12">Guarda el historial</text>
+    <text x="205" y="264" text-anchor="middle" fill="#8b949e" font-size="12">localmente, funciona sin internet</text>
+  </g>
+
+  <!-- GitHub box (remote) -->
+  <g>
+    <rect x="450" y="100" width="290" height="180" rx="14" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <text x="595" y="140" text-anchor="middle" font-size="40">☁️</text>
+    <text x="595" y="175" text-anchor="middle" fill="#58a6ff" font-size="19" font-weight="700">GitHub</text>
+    <text x="595" y="200" text-anchor="middle" fill="#c9d1d9" font-size="13">Plataforma en la nube</text>
+    <text x="595" y="220" text-anchor="middle" fill="#c9d1d9" font-size="13">que aloja repositorios</text>
+    <text x="595" y="248" text-anchor="middle" fill="#8b949e" font-size="12">Permite colaborar, hacer</text>
+    <text x="595" y="264" text-anchor="middle" fill="#8b949e" font-size="12">backup y compartir tu trabajo</text>
+  </g>
+
+  <!-- arrows push/pull -->
+  <path d="M355 165 H445" stroke="#3fb950" stroke-width="3" marker-end="url(#arrowG)"/>
+  <text x="400" y="155" text-anchor="middle" fill="#3fb950" font-size="13" font-weight="600">push →</text>
+
+  <path d="M445 215 H355" stroke="#d29922" stroke-width="3" marker-end="url(#arrowY)"/>
+  <text x="400" y="235" text-anchor="middle" fill="#d29922" font-size="13" font-weight="600">← pull</text>
+
+  <defs>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#3fb950" />
+    </marker>
+    <marker id="arrowY" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M9,0 L9,6 L0,3 z" fill="#d29922" />
+    </marker>
+  </defs>
+
+  <text x="400" y="315" text-anchor="middle" fill="#8b949e" font-size="14">
+    Podés usar Git sin GitHub. No podés usar GitHub sin Git (conceptualmente).
+  </text>
+</svg>
